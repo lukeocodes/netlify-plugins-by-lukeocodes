@@ -6,4 +6,4 @@
 [[plugins]]
   package = "netlify-plugin-algolia-index"
     [plugins.inputs]
-      exclude = ['/private']
+      exclude = ['/private', '/200']
