@@ -1,0 +1,9 @@
+[build]
+  publish = "dist/"
+
+  command = "npm run generate"
+
+[[plugins]]
+  package = "netlify-plugin-algolia-index"
+    [plugins.inputs]
+      exclude = ['/private']
