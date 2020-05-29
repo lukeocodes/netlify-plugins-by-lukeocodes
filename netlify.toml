@@ -7,3 +7,11 @@
   package = "netlify-plugin-algolia-index"
     [plugins.inputs]
       exclude = ['/private', '/200']
+
+[[plugins]]
+  package = "netlify-plugin-opensearch"
+    [plugins.inputs]
+      siteShortName = "Demo Site"
+      siteDescription = "Find stuff on the demo site"
+      siteTags = "demos"
+      siteContact = "luke@lukeoliff.com"
