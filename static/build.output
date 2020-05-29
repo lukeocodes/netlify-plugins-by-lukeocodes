@@ -1,0 +1,196 @@
+2:05:09 PM: Build ready to start
+2:05:11 PM: build-image version: 30f629161c0736b1a3ecd8b418e5eeffab5c0faf
+2:05:11 PM: build-image tag: v3.3.14
+2:05:11 PM: buildbot version: 1da4cf38e1ad1fe9ce7deeeba939bcc9c6c3f794
+2:05:11 PM: Fetching cached dependencies
+2:05:11 PM: Starting to download cache of 254.9KB
+2:05:11 PM: Finished downloading cache in 64.972821ms
+2:05:11 PM: Starting to extract cache
+2:05:11 PM: Failed to fetch cache, continuing with build
+2:05:11 PM: Starting to prepare the repo for build
+2:05:11 PM: No cached dependencies found. Cloning fresh repo
+2:05:11 PM: git clone https://github.com/lukeocodes/netlify-plugin-algolia-index-demo
+2:05:12 PM: Preparing Git Reference refs/heads/master
+2:05:13 PM: Different publish path detected, going to use the one specified in the Netlify configuration file: 'dist' versus 'dist/' in the Netlify UI
+2:05:13 PM: Starting build script
+2:05:13 PM: Installing dependencies
+2:05:14 PM: v10.20.1 is already installed.
+2:05:15 PM: Now using node v10.20.1 (npm v6.14.4)
+2:05:15 PM: Started restoring cached build plugins
+2:05:15 PM: Finished restoring cached build plugins
+2:05:15 PM: Attempting ruby version 2.6.2, read from environment
+2:05:16 PM: Using ruby version 2.6.2
+2:05:17 PM: Using PHP version 5.6
+2:05:17 PM: 5.2 is already installed.
+2:05:17 PM: Using Swift version 5.2
+2:05:17 PM: Started restoring cached node modules
+2:05:17 PM: Finished restoring cached node modules
+2:05:17 PM: Installing NPM modules using NPM version 6.14.4
+2:05:35 PM: > core-js@2.6.11 postinstall /opt/build/repo/node_modules/core-js
+2:05:35 PM: > node -e "try{require('./postinstall')}catch(e){}"
+2:05:35 PM: Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
+2:05:35 PM: The project needs your help! Please consider supporting of core-js on Open Collective or Patreon: 
+2:05:35 PM: > https://opencollective.com/core-js 
+2:05:35 PM: > https://www.patreon.com/zloirock 
+2:05:35 PM: Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
+2:05:35 PM: > ejs@2.7.4 postinstall /opt/build/repo/node_modules/ejs
+2:05:35 PM: > node ./postinstall.js
+2:05:35 PM: Thank you for installing EJS: built with the Jake JavaScript build tool (https://jakejs.com/)
+2:05:35 PM: > nuxt@2.12.2 postinstall /opt/build/repo/node_modules/nuxt
+2:05:35 PM: > opencollective || exit 0
+2:05:35 PM:                                      :-:
+2:05:35 PM:                                    .==-+:
+2:05:35 PM:                                   .==. :+- .-=-
+2:05:35 PM:                                  .==.   :==++-+=.
+2:05:35 PM:                                 :==.     -**: :+=.
+2:05:35 PM:                                :+-      :*+++. .++.
+2:05:35 PM:                               :+-      -*= .++: .=+.
+2:05:35 PM:                              -+:      =*-   .+*: .=+:
+2:05:35 PM:                             -+:     .=*-     .=*-  =+:
+2:05:35 PM:                           .==:     .+*:        -*-  -+-
+2:05:35 PM:                          .=+:.....:+*-.........:=*=..=*-
+2:05:35 PM:                          .-=------=++============++====:
+2:05:35 PM:                           Thanks for installing nuxtjs
+2:05:35 PM:                  Please consider donating to our open collective
+2:05:35 PM:                         to help us maintain this package.
+2:05:35 PM:                            Number of contributors: 229
+2:05:35 PM:                               Number of backers: 329
+2:05:35 PM:                               Annual budget: $70,143
+2:05:35 PM:                              Current balance: $29,738
+2:05:35 PM:                  Donate: https://opencollective.com/nuxtjs/donate
+2:05:36 PM: npm
+2:05:36 PM:  WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules/watchpack-chokidar2/node_modules/fsevents):
+2:05:36 PM: npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+2:05:36 PM: npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.3 (node_modules/fsevents):
+2:05:36 PM: npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+2:05:36 PM: added 1379 packages from 580 contributors and audited 1385 packages in 18.798s
+2:05:37 PM: 58 packages are looking for funding
+2:05:37 PM:   run `npm fund` for details
+2:05:37 PM: found 0 vulnerabilities
+2:05:37 PM: NPM modules installed
+2:05:38 PM: Started restoring cached go cache
+2:05:38 PM: Finished restoring cached go cache
+2:05:38 PM: go version go1.12 linux/amd64
+2:05:38 PM: go version go1.12 linux/amd64
+2:05:38 PM: Installing missing commands
+2:05:38 PM: Verify run directory
+2:05:39 PM: ​
+2:05:39 PM: ┌─────────────────────────────┐
+2:05:39 PM: │        Netlify Build        │
+2:05:39 PM: └─────────────────────────────┘
+2:05:39 PM: ​
+2:05:39 PM: ❯ Version
+2:05:39 PM:   @netlify/build 1.0.10
+2:05:39 PM: ​
+2:05:39 PM: ❯ Flags
+2:05:39 PM:   mode: buildbot
+2:05:39 PM: ​
+2:05:39 PM: ❯ Current directory
+2:05:39 PM:   /opt/build/repo
+2:05:39 PM: ​
+2:05:39 PM: ❯ Config file
+2:05:39 PM:   /opt/build/repo/netlify.toml
+2:05:39 PM: ​
+2:05:39 PM: ❯ Context
+2:05:39 PM:   production
+2:05:39 PM: ​
+2:05:39 PM: ❯ Installing plugins
+2:05:39 PM:    - netlify-plugin-algolia-index
+2:05:39 PM:    - netlify-plugin-opensearch
+2:05:49 PM: ​
+2:05:49 PM: ❯ Loading plugins
+2:05:49 PM:    - netlify-plugin-algolia-index@0.3.0 from netlify.toml
+2:05:49 PM:    - netlify-plugin-opensearch@1.0.1 from netlify.toml
+2:05:51 PM: ​
+2:05:51 PM: ┌────────────────────────────────────┐
+2:05:51 PM: │ 1. build.command from netlify.toml │
+2:05:51 PM: └────────────────────────────────────┘
+2:05:51 PM: ​
+2:05:51 PM: $ npm run generate
+2:05:51 PM: > netlify-plugin-algolia-index-demo@1.0.0 generate /opt/build/repo
+2:05:51 PM: > nuxt generate
+2:05:52 PM: ℹ Production build
+2:05:53 PM: start Loading module
+2:05:53 PM: ✔ Module initialized in postcss mode
+2:05:53 PM: ✔ Builder initialized
+2:05:53 PM: ✔ Nuxt files generated
+2:05:54 PM: ℹ Compiling Client
+2:06:11 PM: ✔ Server: Compiled successfully in 5.00s
+2:06:11 PM: Hash: 38db7cd7e51a3b5cebe8
+2:06:11 PM: Version: webpack 4.43.0
+2:06:11 PM: Time: 11762ms
+2:06:11 PM: Built at: 05/29/2020 1:06:06 PM
+2:06:11 PM:                          Asset       Size  Chunks                         Chunk Names
+2:06:11 PM: ../server/client.manifest.json    7.2 KiB          [emitted]
+2:06:11 PM:        06297197ece25a483569.js    4.7 KiB       2  [emitted] [immutable]  pages/index
+2:06:11 PM:        1e9f7b3aa732ec99de15.js    152 KiB       1  [emitted] [immutable]  commons.app
+2:06:11 PM:        413154e1304007e30d98.js   52.5 KiB       0  [emitted] [immutable]  app
+2:06:11 PM:        435766424ad2e75e2329.js   4.74 KiB       4  [emitted] [immutable]  pages/private
+2:06:11 PM:                       LICENSES  389 bytes          [emitted]
+2:06:11 PM:        b2ac0854527ad9100fe4.js   2.35 KiB       5  [emitted] [immutable]  runtime
+2:06:11 PM:        fb1fc324dd4c5f8ae75f.js    4.9 KiB       3  [emitted] [immutable]  pages/info
+2:06:11 PM:  + 2 hidden assets
+2:06:11 PM: Entrypoint app = b2ac0854527ad9100fe4.js 1e9f7b3aa732ec99de15.js 413154e1304007e30d98.js
+2:06:11 PM: Hash: fdf6bf27b7528881403d
+2:06:11 PM: Version: webpack 4.43.0
+2:06:11 PM: Time: 5005ms
+2:06:11 PM: Built at: 05/29/2020 1:06:11 PM
+2:06:11 PM:                   Asset       Size  Chunks                         Chunk Names
+2:06:11 PM: 7c1905afee903fa9f823.js   5.06 KiB       3  [emitted] [immutable]  pages/private
+2:06:11 PM: d4417b598ab60999b7e2.js   5.22 KiB       2  [emitted] [immutable]  pages/info
+2:06:11 PM: e2bbdc3f8a8473f71835.js   5.11 KiB       1  [emitted] [immutable]  pages/index
+2:06:11 PM:               server.js   30.2 KiB       0  [emitted]              app
+2:06:11 PM:    server.manifest.json  261 bytes          [emitted]
+2:06:11 PM: Entrypoint app = server.js
+2:06:11 PM: ℹ Generating pages
+2:06:11 PM: ✔ Generated /info
+2:06:11 PM: ✔ Generated /private
+2:06:11 PM: ✔ Generated /
+2:06:11 PM: ​
+2:06:11 PM: (build.command completed in 20.2s)
+2:06:11 PM: ​
+2:06:11 PM: ┌──────────────────────────────────────────────────────────┐
+2:06:11 PM: │ 2. onPostBuild command from netlify-plugin-algolia-index │
+2:06:11 PM: └──────────────────────────────────────────────────────────┘
+2:06:11 PM: ​
+2:06:11 PM: Search Index JSON generated at /searchIndex.json!
+2:06:11 PM: ​
+2:06:11 PM: (netlify-plugin-algolia-index onPostBuild completed in 87ms)
+2:06:11 PM: ​
+2:06:11 PM: ┌───────────────────────────────────────────────────────┐
+2:06:11 PM: │ 3. onPostBuild command from netlify-plugin-opensearch │
+2:06:11 PM: └───────────────────────────────────────────────────────┘
+2:06:11 PM: ​
+2:06:11 PM: ​
+2:06:11 PM: (netlify-plugin-opensearch onPostBuild completed in 9ms)
+2:06:11 PM: ​
+2:06:11 PM: ┌─────────────────────────────┐
+2:06:11 PM: │   Netlify Build Complete    │
+2:06:11 PM: └─────────────────────────────┘
+2:06:11 PM: ​
+2:06:11 PM: (Netlify Build completed in 31.9s)
+2:06:12 PM: Caching artifacts
+2:06:12 PM: Started saving node modules
+2:06:12 PM: Finished saving node modules
+2:06:12 PM: Started saving build plugins
+2:06:12 PM: Finished saving build plugins
+2:06:12 PM: Started saving pip cache
+2:06:12 PM: Finished saving pip cache
+2:06:12 PM: Started saving emacs cask dependencies
+2:06:12 PM: Finished saving emacs cask dependencies
+2:06:12 PM: Started saving maven dependencies
+2:06:12 PM: Finished saving maven dependencies
+2:06:12 PM: Started saving boot dependencies
+2:06:12 PM: Finished saving boot dependencies
+2:06:12 PM: Started saving go dependencies
+2:06:12 PM: Finished saving go dependencies
+2:06:15 PM: Creating deploy upload records
+2:06:15 PM: Build script success
+2:06:15 PM: Starting to deploy site from 'dist'
+2:06:15 PM: Creating deploy tree 
+2:06:16 PM: 3 new files to upload
+2:06:16 PM: 0 new functions to upload
+2:06:17 PM: Starting post processing
+2:06:17 PM: Post processing done
+2:06:17 PM: Site is live
+2:06:34 PM: Finished processing build request in 1m22.803129933s
