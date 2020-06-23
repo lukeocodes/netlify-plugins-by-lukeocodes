@@ -1,8 +1,8 @@
 <template>
   <ul>
     <li><nuxt-link to="/">Home</nuxt-link></li>
-    <li><nuxt-link to="/info">Info</nuxt-link></li>
     <li><nuxt-link to="/private">Not Indexed</nuxt-link></li>
+    <li><nuxt-link to="/search">Search</nuxt-link></li>
   </ul>
 </template>
 
@@ -17,7 +17,7 @@ li {
 }
 
 li:after {
-  content: ' ›› ';
+  content: ' :: ';
   display: inline;
   font-size: 1.2em;
   color: #aaa;

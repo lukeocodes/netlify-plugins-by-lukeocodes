@@ -1,5 +1,18 @@
 <template>
-  <h1 class="title">
-    Netlify Plugin Algolia Index Demo
-  </h1>
+  <header>
+    <h1>
+      {{ title }}
+    </h1>
+  </header>
 </template>
+
+<script>
+export default {
+  props: {
+    title: {
+      type: String,
+      default: 'Netlify Search Plugins'
+    }
+  }
+}
+</script>
