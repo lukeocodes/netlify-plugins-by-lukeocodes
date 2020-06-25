@@ -6,7 +6,7 @@
 
 <style>
 html {
-  @apply font-sans text-base tracking-normal box-border px-6;
+  @apply font-sans text-base tracking-normal box-border px-6 mt-12;
 }
 
 *,
@@ -41,7 +41,7 @@ html {
 }
 
 .container {
-  @apply min-h-screen flex justify-center items-center text-center mx-auto;
+  @apply min-h-screen flex justify-center text-center mx-auto;
 }
 
 a {

@@ -1,5 +1,14 @@
+require('dotenv').config()
+
 export default {
   mode: 'universal',
+
+  env: {
+    algoliaIndex: process.env.ALGOLIA_INDEX,
+    algoliaApplicationId: process.env.ALGOLIA_APPLICATION_ID,
+    algoliaSearchKey: process.env.ALGOLIA_SEARCH_KEY
+  },
+
   /*
    ** Headers of the page
    */
@@ -27,7 +36,7 @@ export default {
   /*
    ** Customize the progress-bar color
    */
-  loading: { color: '#fff' },
+  loading: { color: '#38b2ac' },
   /*
    ** Global CSS
    */
@@ -35,7 +44,7 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: [{ src: '@/plugins/vue-instantsearch.js' }],
   /*
    ** Nuxt.js dev-modules
    */
@@ -53,6 +62,7 @@ export default {
    ** Build configuration
    */
   build: {
+    transpile: ['vue-instantsearch', 'instantsearch.js/es'],
     /*
      ** You can extend webpack config here
      */
