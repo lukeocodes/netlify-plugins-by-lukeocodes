@@ -3,16 +3,14 @@
     <div>
       <Logo />
       <Nav />
-      <Header title="Netlify Plugin: Algolia Index" />
+      <Header title="Netlify Plugin: Algolia Export" />
       <section>
         <main>
           <p>
-            <strong
-              >Automatically generate an Algolia friendly index file!</strong
-            >
-            Using this plugin, you can build a search index file containing of
-            all your content pages automatically, excluding any pages you don't
-            want to index.
+            <strong>Export your search index straight to Algolia!</strong> Using
+            this plugin, you can build a search index of all your content pages
+            automatically, excluding any pages you don't want to index, and
+            export it to Algolia.
           </p>
         </main>
         <footer>

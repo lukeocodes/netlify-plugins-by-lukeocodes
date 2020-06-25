@@ -12,12 +12,11 @@ module.exports = {
   plugins: [
     plugin(function({ addBase, config }) {
       addBase({
-        h1: { fontSize: config('theme.fontSize.5xl') },
-        h2: { fontSize: config('theme.fontSize.4xl') },
-        h3: { fontSize: config('theme.fontSize.3xl') },
-        h4: { fontSize: config('theme.fontSize.2xl') },
-        h5: { fontSize: config('theme.fontSize.xl') },
-        h6: { fontSize: config('theme.fontSize.lg') }
+        h1: { fontSize: config('theme.fontSize.4xl') },
+        h2: { fontSize: config('theme.fontSize.3xl') },
+        h3: { fontSize: config('theme.fontSize.2xl') },
+        h4: { fontSize: config('theme.fontSize.xl') },
+        h5: { fontSize: config('theme.fontSize.lg') }
       })
     })
   ],

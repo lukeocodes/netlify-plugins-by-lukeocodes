@@ -15,7 +15,7 @@
       <section>
         <header>
           <h3>
-            Netlify Algolia Index Plugin
+            Netlify Plugin: Algolia Export
           </h3>
         </header>
         <main>
@@ -25,13 +25,16 @@
             automatically, excluding any pages you don't want to index.
           </p>
           <p>
-            <strong>
-              Recently updated to send the index straight to Algolia.
-            </strong>
+            <small>
+              Recently updated to replace
+              <nuxt-link to="/algolia-index"
+                >Netlify Plugin: Algolia Index</nuxt-link
+              >
+            </small>
           </p>
         </main>
         <footer>
-          <nuxt-link to="/algolia-index" class="button button--green">
+          <nuxt-link to="/algolia-export" class="button button--green">
             Read More
           </nuxt-link>
           <a
@@ -46,7 +49,7 @@
       <section>
         <header>
           <h3>
-            Netlify Opensearch Plugin
+            Netlify Plugin: OpenSearch
           </h3>
         </header>
         <main>
@@ -55,16 +58,16 @@
             <a
               href="https://github.com/dewitt/opensearch/blob/master/opensearch-1-1-draft-6.md"
               target="_blank"
-              >opensearch</a
+              >OpenSearch</a
             >
             search.xml file on Netlify. Using this plugin, you can build a
             search index of all your content pages automatically, excluding any
             pages you don't want to index.
           </p>
           <p>
-            <strong>
+            <small>
               Not live on Netlify Plugins (yet)
-            </strong>
+            </small>
           </p>
         </main>
         <footer>

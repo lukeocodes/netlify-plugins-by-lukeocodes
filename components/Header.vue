@@ -11,7 +11,7 @@ export default {
   props: {
     title: {
       type: String,
-      default: 'Netlify Search Plugins'
+      default: 'Netlify Plugins'
     }
   }
 }

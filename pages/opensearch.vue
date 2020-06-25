@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <Nav />
-      <Header title="Netlify Opensearch Plugin" />
+      <Header title="Netlify Plugin: OpenSearch" />
       <section>
         <main>
           <p>
@@ -45,6 +45,19 @@ export default {
     Logo,
     Nav,
     Header
+  },
+
+  head() {
+    return {
+      title: 'Netlify Plugin: OpenSearch',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Automatically generate an OpenSearch meta file with Netlify'
+        }
+      ]
+    }
   }
 }
 </script>
