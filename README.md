@@ -56,6 +56,24 @@ npm run generate
 
 Dist folder is the standard Nuxt.js `dist` directory.
 
+### Using Algolia Export
+
+The Algolia Export plugin requires the following environment variables.
+
+| env variable name  | type  | required  | default  | description  |
+|---|---|---|---|---|
+| ALGOLIA_APPLICATION_ID | String | true | `null` | Your Algolia application ID |
+| ALGOLIA_ADMIN_KEY | String | true | `null` | Your Algolia Admin (or any index-write enabled) API key |
+| ALGOLIA_INDEX | String | true | `null` | Your Algolia index name |
+
+### Using Algolia InstantSearch
+
+The `/search` page uses [Algolia InstantSearch](https://www.algolia.com/doc/api-reference/widgets/instantsearch/vue/). You'll need to add an extra environment variable to get this working.
+
+| env variable name  | type  | required  | default  | description  |
+|---|---|---|---|---|
+| ALGOLIA_SEARCH_KEY | String | true | `null` | Your Algolia Search (or any index-read enabled) API key |
+
 ## Contributing
 
 Make pull-requests, but follow [code of conduct](.github/CODE_OF_CONDUCT.md) please.
