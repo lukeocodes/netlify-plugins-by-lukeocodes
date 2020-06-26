@@ -1,58 +1,61 @@
-# Netlify Algolia Index Plugin
+![](https://img.shields.io/badge/main-not%20master-green)
+![](https://img.shields.io/badge/made%20with-%E2%9D%A4-red)
+![](https://img.shields.io/github/contributors/lukeocodes/netlify-plugins-by-lukeocodes)
+![](https://img.shields.io/github/issues/lukeocodes/netlify-plugins-by-lukeocodes)
 
-Demo application for the *Netlify Algolia Index Plugin*. Generates a Search Index you can export to Algolia!
+# Netlify Plugins by ME
 
-- Demo site: https://netlify-plugin-algolia-index.netlify.app
-- Demo JSON blob: https://netlify-plugin-algolia-index.netlify.app/searchIndex.json
+This is the source for the Nuxt.js based [demo site deployed to Netlify](https://netlify-plugins-by-lukeocodes.netlify.app/), that includes the use of plugins I've created for the [Netlify Plugin Directory](http://app.netlify.com/plugins)
 
-## Build this demo
+## Netlify Plugin: Algolia Export
 
-```bash
-# install dependencies
-$ npm install
+The [Algolia Export plugin](https://github.com/lukeocodes/netlify-plugin-algolia-export) exports the parsed built pages to Algolia directly. Requires environment variables to be set to work, without which it will fail the plugin but not the build, with a message reminding you to set them.
 
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
 ```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
-
-
-## Usage of the plugin
-
-To install, add the plugin in your `netlify.toml`. No config is required but we show the default options here.
-
-<details>
-<summary><b>Generating the search index file.</b></summary>
-
-```toml
 [[plugins]]
-  package = netlify-plugin-algolia-index
-    # all inputs is optional, we just show you the defaults below
-    # [plugins.inputs]
-      # exclude = [] # don't index this file
-      # publishDirJSONFileName = searchIndex
-```
-</details>
-
-Default config will exclude nothing and generate a JSON file at `https://yoursite.netlify.com/searchIndex.json`
-
-## More plugin options
-
-#### Exclude files
-
-Your project probably contains some content files that you don't want your users to search. Pass an array of paths (or regex) to the files you don’t want to be indexed to dismiss them:
-
-```yml
-[[plugins]]
-  package = netlify-plugin-algolia-index
+  package = "netlify-plugin-algolia-export"
     [plugins.inputs]
-      exclude = ['/admin', '/404.html']
+      exclude = ['/private', '/200', '/search']
 ```
+
+## Netlify Plugin: OpenSearch
+
+The [OpenSearch plugin](https://github.com/lukeocodes/netlify-plugin-opensearch) builds a simple search.xml file based on config. Why not just create a `search.xml` file? It is just another arbitrary file to store statically.
+
+```
+[[plugins]]
+  package = "netlify-plugin-opensearch"
+    [plugins.inputs]
+      siteShortName = "Demo Site"
+      siteDescription = "Find stuff on the demo site"
+      siteTags = "demos"
+      siteContact = "luke@lukeoliff.com"
+```
+
+## Running This Demo Locally
+
+Install and run :)
+
+```
+npm install
+```
+
+```
+npm run dev
+```
+
+## Using This As a Nuxt.js Starter
+
+Using this as an Algolia enabled Nuxt.js Starter repo, see above for running locally.
+
+To build as a universal server-side rendered Vue application:
+
+```
+npm run generate
+```
+
+Dist folder is the standard Nuxt.js `dist` directory.
+
+## Contributing
+
+Make pull-requests, but follow [code of conduct](.github/CODE_OF_CONDUCT.md) please.
