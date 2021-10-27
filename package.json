@@ -16,7 +16,7 @@
     "dotenv": "^8.2.0",
     "instantsearch.css": "^7.4.2",
     "nuxt": "^2.0.0",
-    "vue-instantsearch": "^3.0.3"
+    "vue-instantsearch": "^4.1.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^2.0.0",
